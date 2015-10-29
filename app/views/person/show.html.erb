@@ -1,0 +1,15 @@
+<h1>T-County Restaurant name: <%= params[:restname] %></h1>
+<div class= "container">
+<div class="row">
+  <div class= "col-xs-9 col-md-12">
+    <p><%= @text%></p>
+    <div class="col-xs-12 col-md-3 col-lg-4 pull-right">
+      <%= image_tag @pic%>
+    </div>
+  </div>
+    <div class="row">
+      <div class= "col-xs-12">
+        <p><%= link_to "Back", root_path %></p>
+      </div>
+    </div>
+</div>

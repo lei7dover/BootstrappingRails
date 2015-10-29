@@ -1,0 +1,9 @@
+<h1> Welcome to T-County Eats.</h1>
+
+<ul>
+  <% @restaurants.each do |restname| %>
+    <li><%= link_to restname, restaurant_path(:restname=> restname) %> </li>
+  <% end %>
+</ul>
+
+<%=image_tag "Park-Street.jpg" %>
